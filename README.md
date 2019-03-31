@@ -4,6 +4,28 @@ Doxster is a information gathering tool designed to target people.
 Doxster currently supports:
 Image reverse search, Name search & Reverse number search.
 
+## Example code of Reverse Image searching
+``` C++
+#include <cpr/cpr.h>
+#include <iostream>
+#include <string>
+#include <fstream>
+int main(int agrc, char** argv){
+std::ifstream file("ImageReverseWebsite.txt");
+cout << parameters;
+cin >> parameters;
+auto r = cpr::Get(cpr::Url{file, parameters};
+if(file == "ImageReverseWebsite.txt"){
+string image;
+image = cout << "Enter the file name: "; /*File name goes here*/
+cin >> image;
+image = system("find /sdcard/screenshots");
+system(image);
+auto r = cpr::Get(cpr::Url{file, image};
+}
+```
+
+
 ## Supported services
 TinEye, Intelius.
 
