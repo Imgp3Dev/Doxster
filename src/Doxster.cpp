@@ -4,14 +4,14 @@
 #include <fstream>
 #include <cstdlib>
 int main(int argc, char** argv) {
-parameters(string name, int age, string email){
+parameters(string name, int number, string email){
 /*if you have an email then put it within the email quote and same goes for the name and age*/
 name = "";
-age = ""
+number = ""
 email = "";
 }
 std::ifstream file("socialwebsites.txt");
-/*^change it to any of the listed files depending on whether you want to have it search for the info on social websites, etc. so for example if i got an email and wanted to look it up on google then i would put searchEngine.txt*/
+/*^change it to any of the listed files depending on whether you want to have it search for the info on social websites, etc. so for example if you want to reverse search on a number put the number within the number variable and change the file name from socialwebsites.txt to ReverseNumber.txt*/
 cout << parameters;
 cin >> parameters;
 auto r = cpr::Get(cpr::Url{file, parameters};
