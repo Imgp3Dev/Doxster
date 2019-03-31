@@ -15,7 +15,7 @@ Instagram, Kik, Twitter, facebook
 [cpr](https://github.com/whoshuu/cpr/)
 
 ## Configuration
-in order to use Doxster to it's fullest extent make sure to go to **src/Doxster.cpp** and add a specific path to your images within the **system()** code.
+in order to use Doxster to it's fullest extent make sure to go to [src/Doxster.cpp](https://github.com/Imgp3Dev/Doxster/blob/master/src/Doxster.cpp) and add a specific path to your images within the **system()** code.
 
 ## Files to use
 **socialwebsites.txt**  - social media searching.
