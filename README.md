@@ -5,7 +5,7 @@ Doxster currently supports:
 
 Image reverse search & Name searching
 
-#Configuration
+# Configuration
 in order to use Doxster to it's fullest extent make sure to go to src/Doxster.cpp and add a specific path to your images within the system() code.
 
 Now there are a few other things to keep in mind.
