@@ -12,7 +12,7 @@ Instagram, Kik, Twitter, facebook
 
 
 ## required Lib
-cpr
+[cpr](https://github.com/whoshuu/cpr/)
 
 ## Configuration
 in order to use Doxster to it's fullest extent make sure to go to **src/Doxster.cpp** and add a specific path to your images within the **system()** code.
