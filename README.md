@@ -12,9 +12,6 @@ Image reverse search, Name search & Reverse number search.
 #include <fstream>
 int main(int agrc, char** argv){
 std::ifstream file("ImageReverseWebsite.txt");
-cout << parameters;
-cin >> parameters;
-auto r = cpr::Get(cpr::Url{file, parameters};
 if(file == "ImageReverseWebsite.txt"){
 string image;
 image = cout << "Enter the file name: "; /*File name goes here*/
@@ -46,4 +43,9 @@ in order to use Doxster to it's fullest extent make sure to go to [src/Doxster.c
 
 **ImageReverseWebsite.txt**  - Image reverse searching.
 
-Note: Doxster isn't finished and still has some issues.
+## Upcoming features
+- Automatic dox formatting
+
+- IP scan
+
+**Note:** Doxster isn't finished and still has some issues.
