@@ -19,7 +19,9 @@ in order to use Doxster to it's fullest extent make sure to go to **src/Doxster.
 
 ## Files to use
 **socialwebsites.txt**  - social media searching.
+
 **ReverseNumber.txt**  - Phone number reverse searching.
+
 **ImageReverseWebsite.txt**  - Image reverse searching.
 
 Note: Doxster isn't finished and still has some issues.
