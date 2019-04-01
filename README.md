@@ -32,7 +32,7 @@ auto r = cpr::Get(cpr::Url{file, image};
 - number search
 
 ## Supported services
-TinEye, Intelius.
+TinEye, Intelius, tools4noobs.
 
 ## Supported social medias
 Instagram, Kik, Twitter, facebook
