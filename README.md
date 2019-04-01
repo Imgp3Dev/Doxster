@@ -1,9 +1,6 @@
 # Doxster
 Doxster is a information gathering tool designed to target people.
 
-Doxster currently supports:
-Image reverse search, Name search & Reverse number search.
-
 ## Example code of Reverse Image searching
 ``` C++
 #include <cpr/cpr.h>
@@ -21,7 +18,18 @@ system(image);
 auto r = cpr::Get(cpr::Url{file, image};
 }
 ```
+**^one of the examples**
 
+## Features
+- fuzzy string match
+
+- name search
+
+- email search
+
+- reverse image search
+
+- number search
 
 ## Supported services
 TinEye, Intelius.
@@ -32,6 +40,8 @@ Instagram, Kik, Twitter, facebook
 
 ## required Lib
 [cpr](https://github.com/whoshuu/cpr/)
+
+[libgen](https://github.com/SebastienDebia/libRegen/)
 
 ## Configuration
 in order to use Doxster to it's fullest extent make sure to go to [src/Doxster.cpp](https://github.com/Imgp3Dev/Doxster/blob/master/src/Doxster.cpp) and add a specific path to your images within the **system()** code.
