@@ -1,3 +1,6 @@
 [submodule "cpr"]
 	path = cpr
 	url = https://github.com/whoshuu/cpr.git
+[submodule "src/libRegen"]
+	path = src/libRegen
+	url = https://github.com/SebastienDebia/libRegen
