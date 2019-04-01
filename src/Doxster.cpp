@@ -3,6 +3,7 @@
 #include <string>
 #include <fstream>
 #include <cstdlib>
+#include "regen/regen.hpp"
 int main(int argc, char** argv) {
 parameters(string name, int number, string email){
 /*if you have an email then put it within the email quote and same goes for the name and age*/
@@ -36,3 +37,9 @@ if(r.status_code == "200"){
 cout << "Done."
 r.text;
 }
+if(file == "socialwebsites.txt"){
+Gentext = std::cout << regen::generate(Name,"a{1}",, "b[1]") << "\n";
+auto r = cpr::Get(cpr::Url{"https://www.tools4noobs.com/online_tools/string_similarity/"}
+cpr::Parameters{{"action", "ajax_string_similarity"}, {"text", Name}, {"text2", Gentext}})
+}
+
